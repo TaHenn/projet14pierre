@@ -1,5 +1,69 @@
+@font-face {
+    font-family: 'Assassin';
+    src: url('../font/Assassin.ttf') format('woff2'),
+         url('../font/Assassin.ttf') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 html,body{
     margin: 0;
     padding: 0;
 }
 
+body{
+    font-size: 100px;
+    font-family: 'Assassin', sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url(../img/bg.jpg);
+}
+
+.navbar {
+    background-image: url(../img/);
+    overflow: hidden;
+    padding: 10px;
+    border-bottom: 2px solid black;
+    font-family: 'Assassin';
+    justify-content: space-around;
+
+}
+
+.navbar a{
+    float: left;
+    color: #4A3B3B;
+    text-align: center;
+    padding: 14px 40px;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    background-color: #A87B6E;
+    color: #F2E6D9;
+    transition: background-color 0.3s ease;
+}
+
+.navbar img{
+    height: 55px;
+}
+
+.carousel{
+    border-bottom: 2px solid black;
+}
+
+h1{
+    font-family: 'Assassin';
+    text-align: center;
+    font-size: 50px;
+    margin-top: 100px;
+    margin-bottom: 30px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
