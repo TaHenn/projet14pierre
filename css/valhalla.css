@@ -66,34 +66,3 @@ body {
 #jeux{
     scroll-margin-top: 120px;
 }
-
-.carousel{
-    margin: 130px;
-    border: 7px solid black;
-}
-
-.titre h1{
-    font-family: 'Assassin';
-    text-align: center;
-    font-size: 90px;
-    margin-bottom: 30px;
-    background-image: url(../img/paysage.jpg);
-    background-repeat: no-repeat;
-    padding: 350px;
-    border-top: 7px solid black;
-    border-bottom: 7px solid black;
-}
-
-.card img{
-    margin-top: 12px;
-}
-
-.first{
-    margin-bottom: 20px;
-}
-
-.pied{
-    background-image: url(../img/bannière.jpg);
-    margin-top: 60px;
-    border-top: 7px solid black;
-}
