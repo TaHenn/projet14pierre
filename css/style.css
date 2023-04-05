@@ -67,9 +67,17 @@ body {
     scroll-margin-top: 120px;
 }
 
+.plongez{
+    font-size: 40px;
+    font-family: 'Assassin', sans-serif;
+    text-align: center;
+    padding-top: 60px;
+}
+
 .carousel{
     margin: 130px;
     border: 7px solid black;
+    margin-top: 60px;
 }
 
 .titre h1{
@@ -84,13 +92,26 @@ body {
     border-bottom: 7px solid black;
 }
 
-.card img{
-    margin-top: 12px;
+.card1{
+    display: flex;
+    justify-content: space-around;
 }
+
+.card2{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.prix{
+    font-size: 24px;
+}
+
 
 .first{
     margin-bottom: 20px;
 }
+
 
 .pied{
     background-image: url(../img/bannière.jpg);
